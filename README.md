@@ -1,76 +1,50 @@
-CreatorX - AI-Powered Creator Economy Platform
+# CreatorX - AI-Powered Creator Economy Platform
 
-CreatorX revolutionizes digital creator-fan relationships through personalized AI engagement and sustainable token-based monetization. Built on Aptos blockchain with our native $CREO token, we empower creators to build deeper connections while unlocking new revenue streams.
+YouTube link to view site: https://youtu.be/xyOW1NInlUw
+
+CreatorX revolutionizes digital creator-fan relationships through personalized AI engagement and sustainable token-based monetization. Built on the Aptos blockchain with our native $CREO token, we empower creators to build deeper connections while unlocking new revenue streams.
+
 ---
 ![alt text](https://github.com/soumya-xy/CreatorX/blob/38c48d9a4946ce761dd75667e4f3dc2b1cabab94/Vercel.png)
 ---
-Solving Creator Economy Challenges
+## Features
 
-    Authentic Engagement
-    Problem: One-way communication limits fan relationships
-    Solution: AI agents that mirror creator personalities for 24/7 interactive engagement
+1. **AI Engagement Engine:**
+   - Personality cloning through LLM fine-tuning
+   - Real-time interaction analytics dashboard
+   - Multi-format support (text, voice, avatar)
 
-    Sustainable Earnings
-    Problem: Over-dependence on platform algorithms and ads
-    Solution: Multi-tier token economy with subscriptions, NFTs, and community rewards
+2. **CREO Token Ecosystem:**
+   - Native $CREO token for all transactions
+   - Staking rewards and governance rights
+   - Cross-chain compatible wallet integration
 
-    Personalized Experiences
-    Problem: Generic interactions fail to convert casual fans
-    Solution: Machine learning-driven recommendations and adaptive AI conversations
+3. **Creator Toolkit:**
+   - Dynamic NFT membership system
+   - AI-assisted content creation hub
+   - On-chain reputation scoring
+
+4. **Decentralized Governance:**
+   - Community proposal system
+   - Treasury management modules
+   - Transparent revenue sharing
 
 ---
 ![alt text](https://github.com/soumya-xy/CreatorX/blob/38c48d9a4946ce761dd75667e4f3dc2b1cabab94/UML.png)
 ---
-Core Features
-🤖 AI Engagement Engine
+## Tech Stack
 
-    Personality cloning through LLM fine-tuning
+- **AI Core:** Python 3.11, PyTorch, Custom NLP Pipelines
+- **Frontend:** React 18, Next.js 14, WebGL
+- **Smart Contracts:** Move Language (Aptos)
+- **Backend:** Node.js 20, GraphQL, Redis
+- **Storage:** IPFS, Arweave, Filecoin
+- **Analytics:** Apache Kafka, Dune Analytics
 
-    Real-time interaction analytics dashboard
+---
+## Project Structure
 
-    Multi-format support (text/voice/avatar)
-
-💰 CREO Token Ecosystem
-
-    Native $CREO token for all transactions
-
-    Staking rewards and governance rights
-
-    Cross-chain compatible wallet integration
-
-🎨 Creator Toolkit
-
-    Dynamic NFT membership system
-
-    AI-assisted content creation hub
-
-    On-chain reputation scoring
-
-🌐 Decentralized Governance
-
-    Community proposal system
-
-    Treasury management modules
-
-    Transparent revenue sharing
-
-Tech Stack
-
-    AI Core: Python 3.11, PyTorch, Custom NLP Pipelines
-
-    Frontend: React 18, Next.js 14, WebGL
-
-    Smart Contracts: Move Language (Aptos)
-
-    Backend: Node.js 20, GraphQL, Redis
-
-    Storage: IPFS, Arweave, Filecoin
-
-    Analytics: Apache Kafka, Dune Analytics
-
-Project Architecture
-Copy
-
+```
 creatorx/
 ├── ai-engine/          # AI training models and APIs
 ├── contracts/          # Move smart contracts
@@ -78,154 +52,138 @@ creatorx/
 ├── governance/         # DAO voting modules
 ├── reward-system/      # Token distribution logic
 └── analytics/          # User engagement dashboards
+```
 
-Getting Started
-Requirements
+---
+## Installation
 
-    Node.js 20.x
+### Prerequisites
 
-    Python 3.11+
+- **Node.js**: Ensure Node.js (v20 or later) is installed.
+- **Python**: Python 3.11+ is required.
+- **Aptos CLI**: Install Aptos CLI v2.2+
+- **Docker**: Install Docker 24.0+
 
-    Aptos CLI 2.2+
+### Steps
 
-    Docker 24.0+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/soumya-xy/CreatorX.git
+   cd CreatorX
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   pip install -r requirements.txt
+   ```
+3. **Initialize blockchain components**
+   ```bash
+   aptos init --network devnet
+   ```
+4. **Start services**
+   ```bash
+   docker-compose up -d
+   ```
+5. **Launch platform**
+   ```bash
+   cd dapp && npm run dev
+   ```
 
-Installation
-bash
-Copy
+---
+## Usage
 
-git clone https://github.com/stark0908/Xero.git
-cd Xero
+### For Creators 🎤
 
-# Install dependencies
-npm install
-pip install -r requirements.txt
+1. **AI Agent Setup**
+   - Complete personality profile
+   - Upload training materials
+   - Configure interaction styles
 
-# Initialize blockchain components
-aptos init --network devnet
+2. **Monetization Setup**
+   - Create tiered NFT memberships
+   - Set $CREO token rewards
+   - Configure subscription models
 
-# Start services
-docker-compose up -d
+3. **Content Management**
+   - Upload to decentralized storage
+   - Set token-gated access
+   - Analyze fan engagement
 
-# Launch platform
-cd dapp && npm run dev
+### For Fans 💖
 
-Platform Guide
-For Creators 🎤
+1. **Token Interactions**
+   - Acquire $CREO tokens
+   - Stake for premium access
+   - Tip through AI conversations
 
-    AI Agent Setup
+2. **Premium Experiences**
+   - Mint NFT collectibles
+   - Unlock exclusive content
+   - Join creator DAOs
 
-        Complete personality profile
+3. **AI Engagement**
+   - Chat with creator's digital twin
+   - Earn engagement points
+   - Collaborate on community projects
 
-        Upload training materials
+---
+## CREO Token Details
 
-        Configure interaction styles
+- **Token Name:** CreatorX ($CREO)
+- **Type:** Aptos Move Token
+- **Supply:** 1,000,000,000 (fixed)
+- **Decimals:** 8
+- **Utilities:**
+  - Platform governance voting
+  - Premium feature access
+  - Content monetization
+  - Staking rewards
+  - Cross-creator collaborations
 
-    Monetization Setup
+- **Contract Address:** [TO BE UPDATED]
 
-        Create tiered NFT memberships
+---
+## Troubleshooting
 
-        Set $CREO token rewards
+1. **Error: "Failed to connect to wallet."**
+   - Ensure your Aptos wallet is installed and configured.
 
-        Configure subscription models
+2. **Error: "Module import error."**
+   - Verify dependencies and restart the application.
 
-    Content Management
+3. **Docker-related issues**
+   - Ensure Docker is installed and running correctly.
 
-        Upload to decentralized storage
-
-        Set token-gated access
-
-        Analyze fan engagement
-
-For Fans 💖
-
-    Token Interactions
-
-        Acquire $CREO tokens
-
-        Stake for premium access
-
-        Tip through AI conversations
-
-    Premium Experiences
-
-        Mint NFT collectibles
-
-        Unlock exclusive content
-
-        Join creator DAOs
-
-    AI Engagement
-
-        Chat with creator's digital twin
-
-        Earn engagement points
-
-        Collaborate on community projects
-
-CREO Token Details
-
-Token Name: CreatorX ($CREO)
-Type: Aptos Move Token
-Supply: 1,000,000,000 (fixed)
-Decimals: 8
-Utilities:
-
-    Platform governance voting
-
-    Premium feature access
-
-    Content monetization
-
-    Staking rewards
-
-    Cross-creator collaborations
-
-Contract Address: [TO BE UPDATED]
-Contributing
+---
+## Contributing
 
 We welcome contributions in:
 
-    AI/ML model optimization
+- AI/ML model optimization
+- Token economy design
+- Creator analytics tools
+- Decentralized storage solutions
 
-    Token economy design
+### Process
 
-    Creator analytics tools
+1. **Create discussion issue**
+2. **Fork repository**
+3. **Submit PR with tests**
+4. **DAO governance review**
 
-    Decentralized storage solutions
+---
+## License
 
-Process:
+Dual-licensed under **MIT** and **CC BY-NC-SA 4.0**
 
-    Create discussion issue
+---
+## Acknowledgements
 
-    Fork repository
+- **Aptos Core Team** for blockchain infrastructure
+- **Hugging Face** for OSS AI models
+- **The Graph** for decentralized analytics
+- **Web3 developer community**
 
-    Submit PR with tests
-
-    DAO governance review
-
-License
-
-Dual-licensed under MIT and CC BY-NC-SA 4.0
-Acknowledgments
-
-    Aptos Core Team for blockchain infrastructure
-
-    Hugging Face for OSS AI models
-
-    The Graph for decentralized analytics
-
-    Web3 developer community
-
+---
 ✨ Empowering Creators in the Age of AI & Web3 ✨
 
-Note: Maintained existing image links and overall structure while:
-
-    Updating all references to CreatorX
-
-    Highlighting $CREO token integration
-
-    Expanding AI capabilities section
-
-    Added DAO governance components
-    Update repository links and contract address when available.
