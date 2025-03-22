@@ -2,7 +2,7 @@
 
 YouTube link to view site: https://youtu.be/xyOW1NInlUw
 
-CreatorX revolutionizes digital creator-fan relationships through personalized AI engagement and sustainable token-based monetization. Built on the Aptos blockchain with our native $CREO token, we empower creators to build deeper connections while unlocking new revenue streams.
+CreatorX revolutionizes digital creator-fan relationships through personalized AI engagement and sustainable token-based monetization. Built on the Aptos blockchain with our native $CEX token, we empower creators to build deeper connections while unlocking new revenue streams.
 
 ---
 ![alt text](https://github.com/soumya-xy/CreatorX/blob/38c48d9a4946ce761dd75667e4f3dc2b1cabab94/Vercel.png)
@@ -14,8 +14,8 @@ CreatorX revolutionizes digital creator-fan relationships through personalized A
    - Real-time interaction analytics dashboard
    - Multi-format support (text, voice, avatar)
 
-2. **CREO Token Ecosystem:**
-   - Native $CREO token for all transactions
+2. **CEX Token Ecosystem:**
+   - Native $CEX token for all transactions
    - Staking rewards and governance rights
    - Cross-chain compatible wallet integration
 
@@ -101,7 +101,7 @@ creatorx/
 
 2. **Monetization Setup**
    - Create tiered NFT memberships
-   - Set $CREO token rewards
+   - Set $CEX token rewards
    - Configure subscription models
 
 3. **Content Management**
@@ -112,7 +112,7 @@ creatorx/
 ### For Fans 💖
 
 1. **Token Interactions**
-   - Acquire $CREO tokens
+   - Acquire $CEX tokens
    - Stake for premium access
    - Tip through AI conversations
 
@@ -127,9 +127,9 @@ creatorx/
    - Collaborate on community projects
 
 ---
-## CREO Token Details
+## CEX Token Details
 
-- **Token Name:** CreatorX ($CREO)
+- **Token Name:** CreatorX ($CEX)
 - **Type:** Aptos Move Token
 - **Supply:** 1,000,000,000 (fixed)
 - **Decimals:** 8
