@@ -1,6 +1,7 @@
 # CreatorX - AI-Powered Creator Economy Platform
 
 YouTube link to view site: https://youtu.be/xyOW1NInlUw
+visit site : https://vocal-choux-8aed6b.netlify.app/
 
 CreatorX revolutionizes digital creator-fan relationships through personalized AI engagement and sustainable token-based monetization. Built on the Aptos blockchain with our native $CEX token, we empower creators to build deeper connections while unlocking new revenue streams.
 
